@@ -8,5 +8,3 @@
 | `Proposal-Penelitian.docx` | Versi Word untuk dikumpulkan atau diedit |
 | `Proposal-Penelitian.pdf` | Versi PDF |
 | `gambar/` | Gambar 3.1 (alur penelitian), 3.2 (distribusi kelas), C.1 (mind map) |
-
-Isi nama, NIM, dan dosen pengampu di bagian atas sebelum dikumpulkan.
