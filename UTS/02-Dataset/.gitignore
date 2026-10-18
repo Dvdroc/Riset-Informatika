@@ -1,5 +1,12 @@
+
+# Dataset SmSA lengkap
 smsa_train.csv
 smsa_valid.csv
 smsa_test.csv
+
+# Sampel dataset
+sample_smsa_100.csv
+
+# File sementara Python
 __pycache__/
 .ipynb_checkpoints/
