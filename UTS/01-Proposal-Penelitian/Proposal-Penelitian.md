@@ -1,24 +1,17 @@
 # Proposal Penelitian: Perbandingan TF-IDF + SVM dan IndoBERT untuk Klasifikasi Sentimen Ulasan Berbahasa Indonesia
 
 **Mata Kuliah:** Riset Informatika (UTS)  
-**Nama / NIM:** [isi nama] / [isi NIM]  
-**Dosen Pengampu:** [isi nama dosen]
-
-> Catatan: ini adalah topik contoh yang realistis untuk riset kecil. Bagian nama, NIM, dan dosen pengampu diisi saat pengumpulan; seluruh rujukan sudah diperiksa terhadap DOI dan teks aslinya.
+**Nama / NIM:** Mochamad David Ainur Rochman/ 23081010239 
 
 ## ABSTRAK
 
-::: {custom-style="Abstract" lang=id}
 Ulasan pengguna berbahasa Indonesia yang terus bertambah di platform digital menuntut analisis sentimen otomatis yang akurat dan efisien. Penelitian ini bertujuan membandingkan dua pendekatan klasifikasi sentimen tiga kelas (positif, netral, dan negatif), yaitu TF-IDF dengan Support Vector Machine (SVM) sebagai baseline klasik dan IndoBERT sebagai model bahasa pre-trained yang di-fine-tune, pada dataset benchmark SmSA dari IndoNLU. Perbandingan dilakukan pada dua skenario prapemrosesan, yaitu pembersihan minimal dan pembersihan disertai normalisasi kata tidak baku, sehingga pengaruh normalisasi terhadap masing-masing model dapat dianalisis. Kinerja dievaluasi menggunakan accuracy, precision, recall, F1-score (dengan macro F1 sebagai metrik utama), dan confusion matrix, serta dilengkapi pengukuran waktu pelatihan dan inferensi untuk menilai keseimbangan antara akurasi dan biaya komputasi. Pada IndoBERT, eksperimen diulang dengan beberapa random seed, dan perbedaan kinerja antarmodel diuji secara statistik. Penelitian dirancang untuk berjalan pada lingkungan sumber daya terbatas (Google Colab) agar relevan bagi mahasiswa dan praktisi dengan keterbatasan perangkat. Dokumen ini memuat latar belakang, tinjauan pustaka, dan metodologi yang direncanakan; hasil eksperimen akan dilaporkan pada tahap berikutnya.
 
 **Kata Kunci:** analisis sentimen; bahasa Indonesia; IndoBERT; TF-IDF; SVM; klasifikasi teks; normalisasi teks
-:::
 
-::: {custom-style="Abstract" lang=en}
 Indonesian-language user reviews keep growing on digital platforms, which demands accurate and efficient automatic sentiment analysis. This study compares two approaches to three-class sentiment classification (positive, neutral, and negative): TF-IDF with Support Vector Machine (SVM) as a classical baseline, and IndoBERT as a pre-trained language model that is fine-tuned, on the SmSA benchmark dataset from IndoNLU. The comparison uses two preprocessing scenarios, namely minimal cleaning and cleaning with nonstandard word normalization, so that the effect of normalization on each model can be analyzed. Performance is evaluated using accuracy, precision, recall, F1-score (with macro F1 as the primary metric), and the confusion matrix, complemented by training and inference time measurements to assess the trade-off between accuracy and computational cost. For IndoBERT, the experiments are repeated with several random seeds, and differences in performance between models are tested statistically. The study is designed to run in a resource-constrained environment (Google Colab) so that it remains relevant for students and practitioners with limited hardware. This document contains the background, literature review, and planned methodology; experimental results will be reported at the next stage.
 
 **Keywords:** sentiment analysis; Indonesian language; IndoBERT; TF-IDF; SVM; text classification; text normalization
-:::
 
 ## BAB 1 PENDAHULUAN
 
