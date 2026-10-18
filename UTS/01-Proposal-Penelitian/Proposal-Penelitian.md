@@ -1,10 +1,7 @@
 # Proposal Penelitian: Perbandingan TF-IDF + SVM dan IndoBERT untuk Klasifikasi Sentimen Ulasan Berbahasa Indonesia
 
 **Mata Kuliah:** Riset Informatika (UTS)  
-**Nama / NIM:** [isi nama] / [isi NIM]  
-**Dosen Pengampu:** [isi nama dosen]
-
-> Catatan: ini adalah topik contoh yang realistis untuk riset kecil. Bagian nama, NIM, dan dosen pengampu diisi saat pengumpulan; seluruh rujukan sudah diperiksa terhadap DOI dan teks aslinya.
+**Nama / NIM:** Mochamad David Ainur Rochman/ 23081010239 
 
 ## ABSTRAK
 
